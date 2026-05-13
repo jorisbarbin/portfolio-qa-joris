@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import projectsData from "../../../data/projects.json";
 
@@ -47,7 +48,18 @@ export default async function ProjectDetail({ params }) {
         </div>
 
         <h1 className="pageTitle">{project.title}</h1>
-
+        {project.image && (
+          <div className="projectDetailImageWrapper">
+            <Image
+              src={project.image}
+              alt={`Aperçu du projet ${project.title}`}
+              width={1000}
+              height={600}
+              className="projectDetailImage"
+              priority
+            />
+          </div>
+        )}
         <p className="pageText">{project.longDescription}</p>
 
         <div className="projectTags detailTags">

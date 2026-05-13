@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import projectsData from "../../data/projects.json";
 
 export const metadata = {
@@ -26,6 +27,17 @@ export default function Projets() {
               key={project.id}
               className="projectCard"
             >
+              {project.image && (
+                <div className="projectImageWrapper">
+                  <Image
+                    src={project.image}
+                    alt={`Aperçu du projet ${project.title}`}
+                    width={800}
+                    height={500}
+                    className="projectImage"
+                  />
+                </div>
+              )}
               <div className="projectCardHeader">
                 <span className="projectCategory">{project.category}</span>
                 <span className="projectStatus">{project.status}</span>

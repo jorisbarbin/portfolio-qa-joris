@@ -5,8 +5,9 @@ export default function Home() {
   return (
     <section className={styles.hero}>
       <div className={styles.heroContent}>
+        <h1 className={styles.heroTitle}>Bonjour, je suis </h1>
         <h1 className={styles.heroTitle}>
-          Bonjour, je suis <span className={styles.highlight}>Joris Barbin</span>
+            <span className={styles.highlight}>Joris Barbin</span>
         </h1>
 
         <p className={styles.heroSubtitle}>
