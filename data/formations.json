@@ -24,7 +24,8 @@
       "Next.js",
       "Git",
       "GitHub"
-    ]
+    ],
+    "image": "/images/projets/OC-pratique.png"
   },
   {
     "id": 2,
@@ -43,7 +44,8 @@
       "Accessibilité",
       "Figma",
       "Intégration web"
-    ]
+    ],
+    "image": "/images/projets/OC-pratique.png"
   },
   {
     "id": 3,
@@ -65,7 +67,8 @@
       "Événements",
       "Fetch",
       "API"
-    ]
+    ],
+    "image": "/images/projets/OC-pratique.png"
   },
   {
     "id": 4,
@@ -86,7 +89,8 @@
       "Hooks",
       "Routing",
       "JSX"
-    ]
+    ],
+    "image": "/images/projets/OC-pratique.png"
   },
   {
     "id": 5,
@@ -107,7 +111,8 @@
       "JSON",
       "SEO",
       "Vercel"
-    ]
+    ],
+    "image": "/images/projets/OC-pratique.png"
   },
   {
     "id": 6,
@@ -128,6 +133,7 @@
       "Stratégie de test",
       "Automatisation",
       "Qualité logicielle"
-    ]
+    ],
+    "image": "/images/projets/OC-pratique.png"
   }
 ]

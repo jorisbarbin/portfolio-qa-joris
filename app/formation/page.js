@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import formationsData from "../../data/formations.json";
 
 export const metadata = {
@@ -25,6 +26,17 @@ export default function Formation() {
             key={formation.id}
             className="formationsCard"
           >
+              {formation.image && (
+                <div className="formationImageWrapper">
+                  <Image
+                    src={formation.image}
+                    alt={`Aperçu de la formation ${formation.title}`}
+                    width={800}
+                    height={500}
+                    className="formationImage"
+                  />
+                </div>
+              )}
               <div className="formationsCardHeader">
                 <span className="formationsCategory">{formation.category}</span>
                 <span className="formationsStatus">{formation.status}</span>
