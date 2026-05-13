@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -19,13 +20,13 @@ export default function Home() {
         </p>
 
         <div className={styles.heroButtons}>
-          <a href="#projets" className={`${styles.btn} ${styles.btnPrimary}`}>
-            Voir mes projets
-          </a>
+        <Link href="/projets" className={`${styles.btn} ${styles.btnPrimary}`}>
+          Voir mes projets
+        </Link>
 
-          <a href="#contact" className={`${styles.btn} ${styles.btnSecondary}`}>
-            Me contacter
-          </a>
+        <Link href="/contact" className={`${styles.btn} ${styles.btnSecondary}`}>
+          Me contacter
+        </Link>
         </div>
       </div>
     </section>
