@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "slug": "booki",
+    "title": "Booki",
+    "shortDescription": "Intégration responsive d'une page d'accueil en HTML et CSS.",
+    "longDescription": "Projet réalisé dans le cadre de ma formation OpenClassrooms. L'objectif était d'intégrer une page d'accueil responsive à partir d'une maquette, en utilisant HTML et CSS.",
+    "tags": ["HTML", "CSS", "Responsive Design", "Figma"],
+    "category": "Développement web",
+    "status": "Terminé"
+  },
+  {
+    "id": 2,
+    "slug": "tests-fonctionnels",
+    "title": "Tests fonctionnels",
+    "shortDescription": "Premiers tests fonctionnels sur un site web existant.",
+    "longDescription": "Projet orienté test logiciel permettant de découvrir l'exécution d'un cahier de recette, les tests exploratoires et la rédaction de constats.",
+    "tags": ["Tests fonctionnels", "Cahier de recette", "Tests exploratoires"],
+    "category": "Test logiciel",
+    "status": "Terminé"
+  },
+  {
+    "id": 3,
+    "slug": "campagne-de-tests",
+    "title": "Campagne de tests",
+    "shortDescription": "Analyse d'anomalies, mise à jour d'un cahier de recette et bilan de campagne.",
+    "longDescription": "Projet de test complet avec investigation des anomalies, documentation des bugs, mise à jour du cahier de recette et rédaction d'un bilan de campagne.",
+    "tags": ["Jira", "Tests", "Anomalies", "Bilan de campagne"],
+    "category": "Test logiciel",
+    "status": "Terminé"
+  },
+  {
+    "id": 4,
+    "slug": "print-it",
+    "title": "PrintIt",
+    "shortDescription": "Création d'un carrousel d'images avec JavaScript.",
+    "longDescription": "Projet permettant de pratiquer les fondamentaux de JavaScript : tableaux, événements, conditions, fonctions et manipulation du DOM.",
+    "tags": ["JavaScript", "DOM", "Événements", "Algorithmique"],
+    "category": "Développement web",
+    "status": "Terminé"
+  },
+  {
+    "id": 5,
+    "slug": "sophie-bluel",
+    "title": "Sophie Bluel",
+    "shortDescription": "Création d'une page web dynamique communiquant avec une API.",
+    "longDescription": "Projet JavaScript consistant à récupérer des données depuis une API, afficher dynamiquement des projets, gérer une authentification et manipuler le DOM.",
+    "tags": ["JavaScript", "API", "Fetch", "DOM", "GitHub"],
+    "category": "Développement web",
+    "status": "Terminé"
+  },
+  {
+    "id": 6,
+    "slug": "portfolio-nextjs",
+    "title": "Portfolio QA avec Next.js",
+    "shortDescription": "Création progressive de mon portfolio professionnel avec Next.js.",
+    "longDescription": "Portfolio personnel développé avec Next.js pour présenter mon parcours, mes projets, mes compétences et ma reconversion vers le métier de testeur logiciel / QA.",
+    "tags": ["Next.js", "React", "CSS Modules", "GitHub"],
+    "category": "Portfolio",
+    "status": "En cours"
+  }
+]
