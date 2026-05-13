@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "slug": "testeur-logiciel-openclassrooms",
+    "title": "Testeur Logiciel",
+    "school": "OpenClassrooms",
+    "period": "2026",
+    "status": "En cours",
+    "category": "Test logiciel",
+    "shortDescription": "Formation orientée test logiciel, qualité web, développement front-end et automatisation.",
+    "longDescription": "Formation Testeur Logiciel chez OpenClassrooms visant à développer des compétences en tests fonctionnels, tests exploratoires, stratégie de test, cahier de recette, automatisation avec Cypress, API, Postman, JavaScript, React, Next.js, Git et GitHub.",
+    "tags": [
+      "Tests fonctionnels",
+      "Tests exploratoires",
+      "Cahier de recette",
+      "Stratégie de test",
+      "Jira",
+      "Postman",
+      "Cypress",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Next.js",
+      "Git",
+      "GitHub"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "html-css",
+    "title": "HTML & CSS",
+    "school": "OpenClassrooms",
+    "period": "2026",
+    "status": "Terminé",
+    "category": "Développement web",
+    "shortDescription": "Apprentissage des bases de l'intégration web et du responsive design.",
+    "longDescription": "Cours et projets permettant de maîtriser les fondamentaux de HTML et CSS, l'intégration de maquettes, la sémantique HTML, les styles CSS, le responsive design et l'adaptation d'une interface à différents écrans.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Responsive Design",
+      "Accessibilité",
+      "Figma",
+      "Intégration web"
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "javascript",
+    "title": "JavaScript",
+    "school": "OpenClassrooms",
+    "period": "2026",
+    "status": "Terminé",
+    "category": "Développement web",
+    "shortDescription": "Apprentissage des bases de la programmation avec JavaScript.",
+    "longDescription": "Formation aux fondamentaux de JavaScript : variables, conditions, boucles, fonctions, tableaux, objets, événements, manipulation du DOM et récupération de données depuis une API.",
+    "tags": [
+      "JavaScript",
+      "Algorithmique",
+      "Fonctions",
+      "Tableaux",
+      "Objets",
+      "DOM",
+      "Événements",
+      "Fetch",
+      "API"
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "react",
+    "title": "React",
+    "school": "OpenClassrooms",
+    "period": "2026",
+    "status": "En cours",
+    "category": "Développement web",
+    "shortDescription": "Création d'interfaces web modernes avec des composants React.",
+    "longDescription": "Apprentissage de React à travers les composants, les props, le state, les hooks, les événements, le rendu conditionnel, les listes, la navigation et la construction d'applications web organisées en composants réutilisables.",
+    "tags": [
+      "React",
+      "Composants",
+      "Props",
+      "useState",
+      "useEffect",
+      "Hooks",
+      "Routing",
+      "JSX"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "nextjs",
+    "title": "Next.js",
+    "school": "OpenClassrooms",
+    "period": "2026",
+    "status": "En cours",
+    "category": "Développement web",
+    "shortDescription": "Création d'une application React avec Next.js et déploiement en production.",
+    "longDescription": "Apprentissage de Next.js avec l'App Router, le routing basé sur les fichiers, les Server Components, les Client Components, les routes dynamiques, les fichiers JSON, l'optimisation des images, les metadata SEO et le déploiement sur Vercel.",
+    "tags": [
+      "Next.js",
+      "App Router",
+      "Server Components",
+      "Client Components",
+      "Routes dynamiques",
+      "JSON",
+      "SEO",
+      "Vercel"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "tests-logiciels",
+    "title": "Tests logiciels",
+    "school": "OpenClassrooms",
+    "period": "2026",
+    "status": "En cours",
+    "category": "Test logiciel",
+    "shortDescription": "Apprentissage des méthodes de test et de la démarche qualité logicielle.",
+    "longDescription": "Formation aux méthodes de test logiciel : analyse des exigences, cahier de recette, tests fonctionnels, tests exploratoires, rédaction d'anomalies, bilan de campagne, stratégie de test et automatisation de scénarios.",
+    "tags": [
+      "Tests fonctionnels",
+      "Tests exploratoires",
+      "Anomalies",
+      "Jira",
+      "Cahier de recette",
+      "Stratégie de test",
+      "Automatisation",
+      "Qualité logicielle"
+    ]
+  }
+]
