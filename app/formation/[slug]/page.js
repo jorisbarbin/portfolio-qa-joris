@@ -2,6 +2,29 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import formationsData from "../../../data/formations.json";
 
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+
+  const formation = formationsData.find((formation) => formation.slug === slug);
+
+  if (!formation) {
+    return {
+      title: "Formation non trouvée",
+      description: "Cette formation n'existe pas ou n'est plus disponible.",
+    };
+  }
+
+  return {
+    title: formation.title,
+    description: formation.shortDescription,
+    openGraph: {
+      title: formation.title,
+      description: formation.shortDescription,
+      type: "article",
+    },
+  };
+}
+
 export default async function FormationDetail({ params }) {
   const { slug } = await params;
 

@@ -13,8 +13,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Portfolio QA - Joris Barbin",
-  description: "Portfolio de Joris Barbin, futur testeur logiciel / QA.",
+  title: {
+    default: "Portfolio QA - Joris Barbin",
+    template: "%s | Portfolio QA - Joris Barbin",
+  },
+  description:
+    "Portfolio de Joris Barbin, futur testeur logiciel / QA, présentant ses projets, sa formation et ses compétences en test logiciel, JavaScript, React et Next.js.",
 };
 
 export default function RootLayout({ children }) {

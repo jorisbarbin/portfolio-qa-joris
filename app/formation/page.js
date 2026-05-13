@@ -1,6 +1,12 @@
 import Link from "next/link";
 import formationsData from "../../data/formations.json";
 
+export const metadata = {
+  title: "Formation",
+  description:
+    "Découvrez la formation Testeur Logiciel suivie par Joris Barbin chez OpenClassrooms, avec des compétences en QA, tests fonctionnels, automatisation, JavaScript, React et Next.js.",
+};
+
 export default function Formation() {
   return (
     <section className="pageSection">

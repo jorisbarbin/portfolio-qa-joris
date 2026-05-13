@@ -1,6 +1,12 @@
 import Link from "next/link";
 import projectsData from "../../data/projects.json";
 
+export const metadata = {
+  title: "Projets",
+  description:
+    "Découvrez les projets réalisés par Joris Barbin pendant sa formation de testeur logiciel : HTML, CSS, JavaScript, API, React, Next.js et tests fonctionnels.",
+};
+
 export default function Projets() {
   return (
     <section className="pageSection">
